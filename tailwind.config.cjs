@@ -12,6 +12,9 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        rubik: ['Rubik Dirt', "cursive"],
+        sharemono:['Share Tech Mono', 'monospace'],
+        signika:['Signika', 'sans-serif']
       },
     },
     screens: {

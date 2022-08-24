@@ -19,7 +19,7 @@ export const navLinks = [
   },
 ];
 
-export const features = [
+export const  features = [
   {
     id: "feature-1",
     icon: star,
@@ -73,17 +73,17 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Users Active",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: " Companies Trusted",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
+    title: "Transactions",
     value: "$230M+",
   },
 ];
