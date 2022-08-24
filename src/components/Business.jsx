@@ -14,7 +14,7 @@ const FeatureCard=({icon,title,content,index})=>(
         <h4 className="font-poppins font-semibold text-cyan-300 text-[18px] leading-[23px] mb-1">
           {title}
         </h4>
-        <p className="font-poppins font-normal text-blue-50 text-[15px] leading-[24px] mb-1">
+        <p className="font-signika font-normal text-blue-50 text-[1px] leading-[24px] mb-1">
           {content}
         </p>
       </div>
@@ -32,7 +32,7 @@ const Business = () => {
           <br className='sm:block hidden p-0'/>
           we'll handle the finances.
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] pb-5`}>
+        <p className={`${styles.paragraph} max-w-[470px] font-signika pb-5`}>
         With the right credit card, you can improve your financial life by
         building credit, earning rewards and saving money. But with hundreds
         of credit cards on the market.
