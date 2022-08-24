@@ -4,7 +4,7 @@ import { arrowUp } from "../assets"
 const GetStarted = () => {
   return (
     <div className={`${styles.flexCenter} w-[140px] h-[135px] rounded-[50px] bg-blue-gradient p-[3px] cursor-pointer`}>
-      <div className={`${styles.flexCenter} flex-col bg-slate-900 rounded-[50px] w-[100%] h-[100%]`}>
+      <div className={`${styles.flexCenter} flex-col bg-monarchgray rounded-[50px] w-[100%] h-[100%]`}>
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-sharemono font-bold text-[19px] leading-[23px] mr-2">
             <span className="text-gradient">
