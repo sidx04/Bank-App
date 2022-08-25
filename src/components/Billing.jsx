@@ -19,10 +19,14 @@ const Billing = () => {
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore voluptates recusandae dolorum, aliquam officiis, sequi obcaecati eos saepe ex, adipisci cumque molestias iste suscipit explicabo? Tempora voluptatibus neque nobis commodi.
         </p>
         <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-          <img src={apple} alt="appstore" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer transition hover:ease-in-out delay-150"></img>
-          <img src={google} alt="playstore" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"></img>
+          <img src={apple} alt="appstore" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer
+            transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"></img>
+          <img src={google} alt="playstore" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer
+            transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"></img>
         </div>
       </div>
+
+      
     </section>
 
     
